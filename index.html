@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>La Cabra er fedt</title>
-  <link rel="stylesheet" href="css.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>La Cabra er fedt</title>
+<link rel="stylesheet" href="css.css">
 </head>
 <body>
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Hjem</a>
-  <div class="subnav">
-    <button class="subnavbtn">Bageri <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Company</a>
-      <a href="#team">Team</a>
-      <a href="#careers">Careers</a>
+  <div class="topnav" id="myTopnav">
+    <div class="dropdown">
+      <button class="dropbtn">Bageri
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Brød</a>
+        <a href="#">Kager</a>
+        <a href="#">Sæsonbagværk</a>
+      </div>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">Kaffe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Stepped Coffee</a>
+        <a href="#">Coffee Bundles</a>
+        <a href="#">Brew Guides</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Kurser
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Surdejs Kursus</a>
+        <a href="#">Pour Over</a>
+        <a href="#">Espresso</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Bestil Online 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Takeaway</a>
+        <a href="#">Kurv</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Info
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Om Os</a>
+        <a href="#">Lokationer</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-  <video class="background-video" autoplay loop muted>
-    <source src="images/la-cabra-baggrund-desktop.mp4" type="video/mp4">
-  </video>
-  <section class="front-text">
-    <h1>HOS LA CABRA</h1>
-    <p>La Cabra er en populær kaffebutik og bageri, der oprindeligt stammer fra Aarhus, Danmark. Kendt for sin passion for kvalitet og innovation inden for både kaffebrygning og bagning, har La Cabra skabt et...</p>
-  </section>
-  <script>
+<video class="background-video" autoplay loop muted>
+<source src="images/la-cabra-baggrund-desktop.mp4" type="video/mp4">
+</video>
+<section class="front-text">
+<h1>HOS LA CABRA</h1>
+<p>La Cabra er en populær kaffebutik og bageri, der oprindeligt stammer fra Aarhus, Danmark. Kendt for sin passion for kvalitet og innovation inden for både kaffebrygning og bagning, har La Cabra skabt et...</p>
+</section>
+<script>
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
