@@ -146,219 +146,51 @@ footer {
   justify-content: center;
 }
 
-.graven
-{
-
-display: flex;
-max-width: 100%; 
-height:auto;
-float: left;
-
- 
+.graven{
+  padding: 5%;
+  width: 50%;
 
 }
 
-
-@media screen and (min-width: 601px) {
-  .graven {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .graven {
-    width: 50%;
-  }
-}
+.graven-tekst{
+  display: flex;
+  font-size: 60%;
+  flex-direction: column;
+  align-items: end;
+  margin: auto;
 
 
-
-@media screen and (min-width: 601px) {
-  div.graven-tekst {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.graven-tekst {
-    font-size: 10px;
-  }
 }
 
 .graven-titel{
-display: flex;
-flex-direction: column;
-align-items: end;
-padding-right: 40px;
-
-
-
-
-}
-
-@media screen and (min-width: 601px) {
-  div.graven-titel {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.graven-titel {
-    font-size: 9px;
-  }
-}
-
-
-.graven-tekst{
-
   display: flex;
+  font-size: 100%;
   flex-direction: column;
   align-items: end;
-  padding-right: 80px;
-
+  margin: auto;
 }
-
-.kampanilen
-{
-
+.graven-samlet{
   display: flex;
-  padding-top: 50px;
-  height:auto;
-  float: left;
-  float: inline-start
- 
-
+  align-items: center;
 }
 
-
-@media screen and (min-width: 601px) {
-  .kampanilen {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .kampanilen {
-    width: 50%;
-  }
-}
-
-
-
-@media screen and (min-width: 601px) {
-  div.kampanilen-titel {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.kampanilen-titel {
-    font-size: 9px;
-  }
-}
-
-.kampanilen-titel{
-  display: flex;
-  padding-top: 70px;
-  flex-direction: column;
-  align-items: end;
-
-
+@media only screen and (max-width: 600px) {
+  .graven-tekst {
+    font-size: 8px;
   
-}
-
-
-@media screen and (min-width: 601px) {
-  div.kampanilen-tekst {
-    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  div.kampanilen-tekst {
-    font-size: 9px;
-  }
-}
-
-.kampanilen-tekst{
-
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  padding-right: 80px;
+@media only screen and (max-width: 600px) {
+  .graven-titel {
+    font-size: 7px;
   
-
-
-}
-
-
-
-@media screen and (min-width: 601px) {
-  .moentergade {
-    width: 50%;
-    height: 30%;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .moentergade {
-    width: 50%;
-    height: 50%;
-  }
-}
-
-.moentergade
-{
-  display: flex;
-  padding-top: 100px;
-  float: right;
-
-}
 
 
-@media screen and (min-width: 601px) {
-  div.moentergade-titel {
-    font-size: 13px;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  div.moentergade-titel {
-    font-size: 9px;
-  }
-}
-
-.moentergade-titel{
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
-  
-
-}
-
-
-@media screen and (min-width: 601px) {
-  div.moentergade-tekst {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.moentergade-tekst {
-    font-size: 9px;
-  }
-}
-
-.moentergade-tekst{
-
-  display: flex;
-  flex-direction: column;
- 
- 
-  
-
-
-}
 
 
 
