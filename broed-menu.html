@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LA CABRA</title>
-    <link rel="stylesheet" href="./style.css">
-    <!-- FIND EN NY BURGER -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>La Cabra</title>
+<link rel="stylesheet" href="css.css">
+</head>
 <body>
-    <header>
-    <nav>
-        <ul class='nav-bar'>
-            <li class='logo'> <a href='index.html'><img src='/images/lacabralogo2.png'/></a></li>
-            <input type='checkbox' id='check'/>
-            <span class="menu">
-                <li><a href="#">Bageri</a></li>
-                <ul class="onclick-menu-content">
-                    <li><a href="#">Sub-1</a></li>
-                    <li><a href="#">Sub-2</a></li>
-                    <li><a href="#">Sub-3</a></li>
-                </ul>
-                <li><a href="#">Kaffe</a></li>
-                <li><a href="#">Information</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-    </nav>
-    </header>
-<div class="baggrund">
+  <section class="topnav" id="myTopnav">
+    <section class="dropdown">
+      <button class="dropbtn">Bageri
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="broed-menu.html">Brød</a>
+        <a href="kage-menu.html">Kager</a>
+        <a href="saesonbagvaerk.html">Sæsonbagværk</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kaffe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Stepped Coffee</a>
+        <a href="#">Coffee Bundles</a>
+        <a href="brewguide.html">Brew Guides</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kurser
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Surdejs Kursus</a>
+        <a href="#">Pour Over</a>
+        <a href="#">Espresso</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Bestil Online 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Takeaway</a>
+        <a href="#">Kurv</a>
+      </section>
+    </section> 
+    <section class="dropdown">
+      <button class="dropbtn">Info
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Om Os</a>
+        <a href="#">Lokationer</a>
+      </section>
+    </section>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </section>
+<video class="background-video" autoplay loop muted>
+<source src="images/la-cabra-baggrund-desktop.mp4" type="video/mp4">
+</video>
+<section class="front-text">
+<h1>HOS LA CABRA</h1>
+<p>La Cabra er en populær kaffebutik og bageri, der oprindeligt stammer fra Aarhus, Danmark. Kendt for sin passion for kvalitet og innovation inden for både kaffebrygning og bagning, har La Cabra skabt et...</p>
+</section>
+
 <main>
+
     <article>
         <h2>LA CABRA - BRØD MENU</h2>
         <h4> På denne side, kan du se vores normale
@@ -40,9 +78,33 @@
             sortimentet vil blive opdateret på siden</h4>
 
             <img src="images/menu1.jpg" alt="brød mneu">
-    </arti cle>
-</main>
-</div>
+    </article>
 
+</main>
+
+  <footer>
+    &copy; Alle Rittigheder Forbeholdes. LA CABRA
+
+    <a href="https://www.instagram.com/lacabrabakery/" target="_blank" class="social-media-icon">
+      <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="Social Media Icon">
+
+    <a href="https://www.facebook.com/profile.php?id=100093587786636" target="_blank" class="social-media-icon">
+      <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-512.png" alt="Social Media Icon">
+
+  </footer>
+<script>
+  
+  
+  
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
