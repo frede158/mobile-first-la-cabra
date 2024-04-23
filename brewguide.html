@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>La Cabra</title>
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+</head>
+<body>
+  <section class="topnav" id="myTopnav">
+        <section class="dropdown">
+          <a class="dropbtn" href="index.html">Forside</a>
+        </section>
+    <section class="dropdown">
+      <button class="dropbtn">Bageri
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="broed-menu.html">Brød</a>
+        <a href="kage-menu.html">Kager</a>
+        <a href="saesonbagvaerk.html">Sæsonbagværk</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kaffe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Stepped Coffee</a>
+        <a href="#">Coffee Bundles</a>
+        <a href="brewguide.html">Brew Guides</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kurser
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Surdejs Kursus</a>
+        <a href="#">Pour Over</a>
+        <a href="#">Espresso</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Bestil Online 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Takeaway</a>
+        <a href="#">Kurv</a>
+      </section>
+    </section> 
+    <section class="dropdown">
+      <button class="dropbtn">Info
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Om Os</a>
+        <a href="lokationer.html">Lokationer</a>
+      </section>
+    </section>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </section>
+  <main>
+  <section class="front-text">
+    <h1>BREW GUIDE</h1>
+  </section>
+  <section class="brew">
+    <section class="billed-tekst-container">
+    <img class="billed" src="images/kaffe-farve.webp" alt="kaffekande">
+    <section class="tekst">
+        <h3>FRENCH PRESS</h3>
+        <h4>20g coffee</h4>
+        <h4>300g Water</h4>
+        <h4>0:00 Pour all water</h4>
+        <h4>4:00 Break the coffee crust and stir 6 times</h4>
+        <h4>8:00 Put in plunger and pour into cup</h4>
+    </section>
+</section>
+<section class="billed-tekst-container">
+    <img class="billed" src="images/kaffe-forvreanget.webp" alt="kaffebord">
+    <section class="tekst">
+        <h4>ESPRESSO</h4>
+        <h4>18g coffee</h4>
+        <h4>50g Espresso in the cup</h4>
+        <h4>Brewtime: 18-22 seconds</h4>
+    </section>
+</section>
+<section class="billed-tekst-container">
+    <img class="billed" src="images/la-cabra-brew.webp" alt="lacabra brew">
+    <section class="tekst">
+        <h3>COLD BREW</h3>
+        <h4>20g coffee</h4>
+        <h4>300g Water</h4>
+        <h4>Mix water and coffee</h4>
+        <h4>Wait for 24 hours and drain</h4>
+        <h4>Then enjoy!</h4>
+    </section>
+</section>
+</section>
+</main> 
+<footer>
+  &copy; Alle Rettigheder Forbeholdes. LA CABRA
+  <div class="footer-content">
+    <h3>LA CABRA</h3>
+    <ul class="socials">
+        <li><a href="https://www.facebook.com/Lacabra.coffee/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/lacabracoffee/?hl=da" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a></li>
+    </ul>
+</footer>  
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

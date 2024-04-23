@@ -1,34 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaCabra</title>
-    <link rel="stylesheet" href="./style.css">
-    <!-- FIND EN NY BURGER -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>La Cabra</title>
+<link rel="stylesheet" href="css.css">
+</head>
 <body>
-    <header>
-    <nav>
-        <ul class='nav-bar'>
-            <li class='logo'> <a href='index.html'><img src='/images/lacabralogo2.png'/></a></li>
-            <input type='checkbox' id='check'/>
-            <span class="menu">
+  <section class="topnav" id="myTopnav">
+    <section class="dropdown">
+      <a class="dropbtn" href="index.html">Forside</a>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Bageri
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="broed-menu.html">Brød</a>
+        <a href="kage-menu.html">Kager</a>
+        <a href="saesonbagvaerk.html">Sæsonbagværk</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kaffe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Stepped Coffee</a>
+        <a href="#">Coffee Bundles</a>
+        <a href="brewguide.html">Brew Guides</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Kurser
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Surdejs Kursus</a>
+        <a href="#">Pour Over</a>
+        <a href="#">Espresso</a>
+      </section>
+    </section>
+    <section class="dropdown">
+      <button class="dropbtn">Bestil Online 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Takeaway</a>
+        <a href="#">Kurv</a>
+      </section>
+    </section> 
+    <section class="dropdown">
+      <button class="dropbtn">Info
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <section class="dropdown-content">
+        <a href="#">Om Os</a>
+        <a href="lokationer.html">Lokationer</a>
+      </section>
+    </section>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </section>
 
-               
-                <li><a href="#">Bageri</a></li>
-                <li><a href="#">Kaffe</a></li>
-                <li><a href="#">Kurser</a></li>
-                <li><a href="#">Bestil Online</a></li>
-                <li><a href="#">Information</a></li>
+<section class="front-text">
+<h1>HOS LA CABRA</h1>
+<p>La Cabra er en populær kaffebutik og bageri, der oprindeligt stammer fra Aarhus, Danmark. Kendt for sin passion for kvalitet og innovation inden for både kaffebrygning og bagning, har La Cabra skabt et...</p>
 
-                
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-    </nav>
-    </header>
+</section>
+<main>
+  <section class="billed-tekst-container">
+    <img class="billed" src="images/graven.webp" alt="graven">
+     <section class="tekst">
+      <h2>GRAVEN, AARHUS C</h2>
+      <h3>Åbningstider</h3>
+      <h4>MAN - SØN 08:00 - 18:00</h4>
+      <h4>SØNDAG 09:00 - 17:00</h4>
+     </section>
+    </section>
+   <section class="billed-tekst-container">
+    <img class="billed" src="images/kampanilen.webp" alt="kampanilen">
+      <section class="tekst">
+        <h2>KAMPANILEN, AARHUS Ø</h2>
+        <h3>Åbningstider</h3>
+        <h4>MAN - SØN 08:00 - 18:00</h4>
+        <h4>SØNDAG 09:00 - 17:00</h4>
+      </section>
+    </section>
+  <section class="billed-tekst-container">
+    <img class="billed" src="images/moentergade.webp" alt="moentergade">
+      <section class="tekst">
+        <h2>MØNSTERGADE, KØBENHAVN K</h2>
+        <h3>Åbningstider</h3>
+        <h4>MAN - SØN 08:00 - 18:00</h4>
+        <h4>SØNDAG 09:00 - 17:00</h4>
+      </section>
+    </section>
+  <section class="billed-tekst-container">
+    <img class="billed" src="images/soho.webp" alt="soho">
+      <section class="tekst">
+       <h2>SOHO, NEW YORK</h2>
+       <h3>Åbningstider</h3>
+       <h4>MAN - SØN 08:00 - 18:00</h4>
+       <h4>SØNDAG 09:00 - 17:00</h4>
+      </section>
+   </section>
+<footer>
+&copy; Alle Rettigheder Forbeholdes. LA CABRA
+                  
+<div class="footer-content">
+<h3>LA CABRA</h3>
+<ul class="socials">
+<li><a href="https://www.facebook.com/Lacabra.coffee/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook"></a></li>
+<li><a href="https://www.instagram.com/lacabracoffee/?hl=da" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a></li>
+</ul>
+</footer>               
+
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
