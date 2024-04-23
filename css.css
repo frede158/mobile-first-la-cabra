@@ -155,6 +155,39 @@ p {
   }
 }
 
+
+
+.billed {
+  padding: 5%;
+  width: 50%;
+}
+
+.tekst{
+  display: flex;
+  font-size: 100%;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 10%;
+}
+
+.billed-tekst-container {
+ display: flex;
+ align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .tekst {
+    font-size: 70%;
+  }
+  }
+
+h1 {
+  font-family: 'roboto slab';font-size: 40px;
+}
+.overskrift {
+  text-align: center;
+}
+
 footer {
   background-color: #c8ac88;
   color: white;
@@ -191,89 +224,3 @@ footer {
   width: 32px;
   height: 32px;
 }
-
-.billed {
-  padding: 5%;
-  width: 50%;
-}
-
-.tekst {
-  display: flex;
-  justify-content: center;
-}
-
-.graven{
-  padding: 5%;
-  width: 50%;
-
-}
-
-.graven-tekst{
-  display: flex;
-  font-size: 60%;
-  flex-direction: column;
-  align-items: end;
-  margin: auto;
-
-
-}
-
-.graven-titel{
-  display: flex;
-  font-size: 100%;
-  flex-direction: column;
-  align-items: end;
-  margin: auto;
-}
-.graven-samlet{
-  display: flex;
-  align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-  .graven-tekst {
-    font-size: 8px;
-  
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .graven-titel {
-    font-size: 7px;
-  
-  }
-}
-
-
-
-
-
-
-
-
-.tekst{
-  display: flex;
-  font-size: 100%;
-  flex-direction: column;
-  align-items: end;
-  margin-right: 10%;
-}
-
-.billed-tekst-container {
- display: flex;
- align-items: center;
-}
-
-@media screen and (max-width: 600px) {
-  .tekst {
-    font-size: 70%;
-  }
-  }
-
-h1 {
-  font-family: 'roboto slab';font-size: 40px;
-}
-.overskrift {
-  text-align: center;
-}
-
