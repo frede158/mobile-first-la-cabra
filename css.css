@@ -141,6 +141,10 @@
   }
 }
 
+
+
+/* Footer */ 
+
 footer {
   background-color: #c8ac88;
   color: white;
@@ -177,3 +181,120 @@ footer {
   width: 32px;
   height: 32px;
 }
+
+
+
+/* Brødmenu og kagemenu */ 
+
+#broed-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#kage-menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+/* Fastelavnsboller */
+
+.billed-bolle {
+  padding: 5%;
+  width: 50%;
+}
+
+.tekst-bolle {
+  display: flex;
+  font-size: 100%;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 10%;
+}
+
+.billed-tekst-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .tekst-bolle {
+    font-size: 70%;
+  }
+}
+
+
+
+/* Choux */
+
+.billed-choux {
+  padding: 5%;
+  width: 50%;
+}
+
+.tekst-choux {
+  display: flex;
+  font-size: 100%;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 10%;
+}
+
+.billed-tekst-container-choux {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .tekst-choux {
+    font-size: 70%;
+  }
+}
+
+
+
+/* Jordbærtærte */ 
+
+.jordbaer {
+  padding: 5%;
+  width: 50%;
+}
+
+.tekst-jordbaer {
+  display: flex;
+  font-size: 100%;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 10%;
+}
+
+.billed-tekst-container-jordbaer {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .tekst-jordbaer {
+    font-size: 70%;
+  }
+}
+
+
+
+
+
